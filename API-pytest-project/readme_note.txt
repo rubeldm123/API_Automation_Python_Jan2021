@@ -29,6 +29,58 @@ drwxr-xr-x@  3 mdrubel  staff   96 Jan 23 13:46 .
 drwx------@ 24 mdrubel  staff  768 Jan 23 13:46 ..
 drwxr-xr-x@  9 mdrubel  staff  288 Jan 23 13:46 .git
 :::::::::::::::::::::::::::::::::::::::::::::::::::
+>:::::::::git status :::::::Copy project to local reository and navigate to Local repository
+NOTE: WHEN we copy project to local repository it will be UNTRACT state
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ pwd
+/Users/mdrubel/Desktop/Api_Automation_python_Jan2021
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	API-pytest-project/
+
+nothing added to commit but untracked files present (use "git add" to track)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+>:::::::::::::::git add: Move file to the STAGE state
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git add API-pytest-project/
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   API-pytest-project/.idea/.gitignore
+	new file:   API-pytest-project/.idea/API-pytest-project.iml
+	new file:   API-pytest-project/.idea/inspectionProfiles/profiles_settings.xml
+	new file:   API-pytest-project/.idea/misc.xml
+	new file:   API-pytest-project/.idea/modules.xml
+	new file:   API-pytest-project/Selenium_test/__pycache__/test_TC_001_ValidateRegistration.cpython-39-PYTEST.pyc
+	new file:   API-pytest-project/Selenium_test/chromedriver
+	new file:   API-pytest-project/Selenium_test/test_TC_001_ValidateRegistration.py
+	new file:   API-pytest-project/asasastest_TC_001_ValidateRegistratio
+
+NOTE: If we write " git add." it will add all the file to Untract to Stage state
+::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::git commit -m "Automation start": move file to TRACT stage:::::::
+NOTE: git commit // it will move all the file from STAGE state to TRACK stage
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git commit -m "Automation start"
+
+::Check status:
+
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
+On branch master
+nothing to commit, working tree clean
+
+:::::::::::::::::::git push ::::::it will push to Remote repository:
+
+
+
+
 
 
 git init
