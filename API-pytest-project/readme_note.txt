@@ -104,7 +104,22 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 
 
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git add .
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   API-pytest-project/readme_note.txt
+
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git commit -m "Update Readme file"
+[master 2e47d80] Update Readme file
+ 1 file changed, 29 insertions(+)
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
+
+
 :::
+
+
 :::::::::::::::::::git push ::::::it will push to Remote repository:
 
 
