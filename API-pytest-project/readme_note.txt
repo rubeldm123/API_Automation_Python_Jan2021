@@ -117,7 +117,14 @@ mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git commit -m "Update Rea
 mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
 
 
-:::
+:::Add remote Repository::::::::::::
+:::::::::::git remote -v --> it will show all Remote repository
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git remote -v
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git remote add origin https://github.com/rubeldm123/API_Automation_Python_Jan2021.git
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git remote -v
+origin	https://github.com/rubeldm123/API_Automation_Python_Jan2021.git (fetch)
+origin	https://github.com/rubeldm123/API_Automation_Python_Jan2021.git (push)
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ 
 
 
 :::::::::::::::::::git push ::::::it will push to Remote repository:
