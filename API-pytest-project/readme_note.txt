@@ -129,6 +129,8 @@ mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$
 
 :::::::::::::::::::git push ::::::it will push to Remote repository:
 
+We will pull it from Git hub Repository, update Readme file then will make commit and pust it agian to git hub
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git pull origin master
 
 
 
