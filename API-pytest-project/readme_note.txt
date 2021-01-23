@@ -76,6 +76,35 @@ mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
 On branch master
 nothing to commit, working tree clean
 
+
+
+:::::::::::::git log ::::::It will display history of the log:
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git log
+commit 925cd9b19219e7fab9aa486004b8f629f7dc3ca3 (HEAD -> master)
+Author: rubeldm123 <rubeldm123@gmail.com>
+Date:   Sat Jan 23 14:25:12 2021 -0600
+
+    Update Readme file
+
+::::::::::::git reset HEAD : it will move file from STAGE state to Untract state:
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git reset HEAD API-pytest-project/readme_note.txt 
+Unstaged changes after reset:
+M	API-pytest-project/readme_note.txt
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   API-pytest-project/readme_note.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+:::::::::::::: Add above to STAGE stat and then move to Track stage musing commit 
+
+
+
+
+:::
 :::::::::::::::::::git push ::::::it will push to Remote repository:
 
 
