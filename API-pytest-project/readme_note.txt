@@ -87,7 +87,7 @@ Date:   Sat Jan 23 14:25:12 2021 -0600
     Update Readme file
 
 ::::::::::::git reset HEAD : it will move file from STAGE state to Untract state:
-mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git reset HEAD API-pytest-project/readme_note.txt 
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git reset HEAD API-pytest-project/readme_note.txt
 Unstaged changes after reset:
 M	API-pytest-project/readme_note.txt
 mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git status
@@ -99,7 +99,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
-:::::::::::::: Add above to STAGE stat and then move to Track stage musing commit 
+:::::::::::::: Add above to STAGE stat and then move to Track stage musing commit
 
 
 
@@ -124,7 +124,7 @@ mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git remote add origin htt
 mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git remote -v
 origin	https://github.com/rubeldm123/API_Automation_Python_Jan2021.git (fetch)
 origin	https://github.com/rubeldm123/API_Automation_Python_Jan2021.git (push)
-mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ 
+mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$
 
 
 :::::::::::::::::::git push ::::::it will push to Remote repository:
@@ -136,14 +136,30 @@ mds-MacBook-Pro:Api_Automation_python_Jan2021 mdrubel$ git pull origin master
 
 This is upto date version
 
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+::::::::::::Jenkins configuration::::::::::
+https://www.jenkins.io/doc/pipeline/tour/getting-started/
 
 
+https://get.jenkins.io/war-stable/2.263.2/
 
+mds-MacBook-Pro:downloads mdrubel$ java -jar jenkins.war --httpPort=8090
+*************************************************************
+*************************************************************
+*************************************************************
 
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/rubeldm123/API_Automation_Python_Jan2021.git
-git push -u origin main
+92e896fbc148427fb99b597dbba324d8
+
+This may also be found at: /Users/mdrubel/.jenkins/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+ http://localhost:8090
+userName; rubel
+password: password123
+
