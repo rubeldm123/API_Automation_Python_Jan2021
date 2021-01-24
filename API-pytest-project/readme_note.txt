@@ -4,11 +4,11 @@
 ===========================
 :Configure user_name , user_email and see all configre list
 mds-MacBook-Pro:API-pytest-project mdrubel$ git config --global user.name "rubeldm123"
-mds-MacBook-Pro:API-pytest-project mdrubel$ git config --global user.email "rubeldm123@gmail.com"
+mds-MacBook-Pro:API-pytest-project mdrubel$ git config --global user.email "email@gmail.com"
 mds-MacBook-Pro:API-pytest-project mdrubel$ git config --list
 credential.helper=osxkeychain
-user.name=rubeldm123
-user.email=rubeldm123@gmail.com
+user.name=username
+user.email=email@gmail.com
 --------------------------------------------------------------------------------------
 >Create local Repository:
 ===========================
